@@ -1,5 +1,5 @@
 import Component from '@glimmer/component';
-import { service } from '@glimmer/service';
+import { service } from '@ember/service';
 
 export default class BandNavigationComponent extends Component {
   @service router;
